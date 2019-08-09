@@ -1,4 +1,4 @@
-html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav,section{display:block}h2{font-size:2em;margin:.67em 0}main{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}img{border-style:none}button,input{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button{text-transform:none}button{-webkit-appearance:button}button::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring{outline:1px dotted ButtonText}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}
+html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}main{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}img{border-style:none}button,input{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button{text-transform:none}button{-webkit-appearance:button}button::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring{outline:1px dotted ButtonText}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}
 
 html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
 
@@ -7,88 +7,6 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 .visuallyhidden:not(:focus):not(:active) { position: absolute; width: 1px; height: 1px; margin: -1px;border: 0;padding: 0;white-space: nowrap;clip-path: inset(100%);clip: rect(00 0 0);overflow: hidden;}
 
 body {
-    margin: 0;
-}
-
-footer,
-header,
-nav,
-section {
-    display: block;
-}
-
-h2 {
-    font-size: 2em;
-    margin: .67em 0;
-}
-
-main {
-    display: block;
-}
-
-a {
-    background-color: transparent;
-    -webkit-text-decoration-skip: objects;
-}
-
-img {
-    border-style: none;
-}
-
-button,
-input {
-    font-family: sans-serif;
-    font-size: 100%;
-    line-height: 1.15;
-    margin: 0;
-}
-
-button,
-input {
-    overflow: visible;
-}
-
-button {
-    text-transform: none;
-}
-
-button {
-    -webkit-appearance: button;
-}
-
-button::-moz-focus-inner {
-    border-style: none;
-    padding: 0;
-}
-
-button:-moz-focusring {
-    outline: 1px dotted ButtonText;
-}
-
-::-webkit-file-upload-button {
-    -webkit-appearance: button;
-    font: inherit;
-}
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
-}
-
-.visuallyhidden:not(:focus):not(:active) {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(00 0 0);
-    overflow: hidden;
-}
-
-body {
     margin: 0
 }
 
@@ -96,102 +14,16 @@ footer,
 header,
 nav,
 section {
-    display: block;
+    display: block
 }
 
-h2 {
+h1 {
     font-size: 2em;
-    margin: .67em 0;
+    margin: .67em 0
 }
 
 main {
-    display: block;
-}
-
-a {
-    background-color: transparent;
-    -webkit-text-decoration-skip: objects;
-}
-
-img {
-    border-style: none;
-}
-
-button,
-input {
-    font-family: sans-serif;
-    font-size: 100%;
-    line-height: 1.15;
-    margin: 0;
-}
-
-button,
-input {
-    overflow: visible;
-}
-
-button {
-    text-transform: none;
-}
-
-button {
-    -webkit-appearance: button;
-}
-
-button::-moz-focus-inner {
-    border-style: none;
-    padding: 0;
-}
-
-button:-moz-focusring {
-    outline: 1px dotted ButtonText;
-}
-
-::-webkit-file-upload-button {
-    -webkit-appearance: button;
-    font: inherit;
-}
-
-input::placeholder{
-    font-style: italic;
-}
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
-}
-
-.visuallyhidden:not(:focus):not(:active) {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(00 0 0);
-    overflow: hidden;
-}
-
-body {
-    margin: 0
-}
-
-footer,
-header,
-nav,
-section {
-    display: block;
-}
-
-h2 {
-    font-size: 2em;
-    margin: .67em 0;
-}
-
-main {
-    display: block;
+    display: block
 }
 
 a {
@@ -200,7 +32,7 @@ a {
 }
 
 img {
-    border-style: none;
+    border-style: none
 }
 
 button,
@@ -213,11 +45,187 @@ input {
 
 button,
 input {
-    overflow: visible;
+    overflow: visible
 }
 
 button {
-    text-transform: none;
+    text-transform: none
+}
+
+button {
+    -webkit-appearance: button
+}
+
+button::-moz-focus-inner {
+    border-style: none;
+    padding: 0
+}
+
+button:-moz-focusring {
+    outline: 1px dotted ButtonText
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit
+}
+
+.visuallyhidden:not(:focus):not(:active) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(00 0 0);
+    overflow: hidden;
+}
+
+
+
+body {
+    margin: 0
+}
+
+footer,
+header,
+nav,
+section {
+    display: block
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0
+}
+
+main {
+    display: block
+}
+
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects
+}
+
+img {
+    border-style: none
+}
+
+button,
+input {
+    font-family: sans-serif;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0
+}
+
+button,
+input {
+    overflow: visible
+}
+
+button {
+    text-transform: none
+}
+
+button {
+    -webkit-appearance: button
+}
+
+button::-moz-focus-inner {
+    border-style: none;
+    padding: 0
+}
+
+button:-moz-focusring {
+    outline: 1px dotted ButtonText
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit
+}
+
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit
+}
+
+.visuallyhidden:not(:focus):not(:active) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(00 0 0);
+    overflow: hidden;
+}
+
+
+body {
+    margin: 0
+}
+
+footer,
+header,
+nav,
+section {
+    display: block
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0
+}
+
+main {
+    display: block
+}
+
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects
+}
+
+img {
+    border-style: none
+}
+
+button,
+input {
+    font-family: sans-serif;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0
+}
+a:hover{
+    color: blue;
+}
+
+button,
+input {
+    overflow: visible
+}
+
+button {
+    text-transform: none
+}
+
+button {
+  
 }
 
 button::-moz-focus-inner {
@@ -265,7 +273,7 @@ section {
     display: block
 }
 
-h2 {
+h1 {
     font-size: 2em;
     margin: .67em 0
 }
@@ -280,7 +288,7 @@ a {
 }
 
 img {
-    border-style: none;
+    border-style: none
 }
 
 button,
@@ -349,7 +357,7 @@ section {
     display: block;
 }
 
-h2 {
+h1 {
     font-size: 2em;
     margin: .67em 0;
 }
@@ -372,7 +380,7 @@ ul{
 }
 
 img {
-    border-style: none;
+    border-style: none
 }
 
 button,
@@ -380,41 +388,41 @@ input {
     font-family: sans-serif;
     font-size: 100%;
     line-height: 1.15;
-    margin: 0;
+    margin: 0
 }
 
 button,
 input {
-    overflow: visible;
+    overflow: visible
 }
 
 button {
-    text-transform: none;
+    text-transform: none
 }
 
 button {
-    -webkit-appearance: button;
+    -webkit-appearance: button
 }
 
 button::-moz-focus-inner {
     border-style: none;
-    padding: 0;
+    padding: 0
 }
 
 button:-moz-focusring {
-    outline: 1px dotted ButtonText;
+    outline: 1px dotted ButtonText
 }
 
 ::-webkit-file-upload-button {
     -webkit-appearance: button;
-    font: inherit;
+    font: inherit
 }
 
 
 *,
 *:before,
 *:after {
-    box-sizing: inherit;
+    box-sizing: inherit
 }
 
 .visuallyhidden:not(:focus):not(:active) {
@@ -443,9 +451,8 @@ a {
 
 nav {
     float: right;
-    margin-top: -75px;
+    margin-top: -35px;
     margin-right: 130px;
-    
 }
 
 nav li {
@@ -470,7 +477,6 @@ nav li {
     background-color: #f7f7f7;
     padding-bottom: 10px;
     padding-top: 10px;
-    margin-top: -30px
     /*/just to test*/
 }
 
@@ -496,10 +502,7 @@ nav li {
     padding-right: 10px;
     text-align: center;
 }
-.tech{
-    text-align: center;
-    font-size: 2.3rem;
-}
+
 .dogText p {
     font-weight: 400;
     padding: 10px 25px;
@@ -519,7 +522,7 @@ nav li {
     
 }
 
-.welcomeSection h2 {
+.welcomeSection h1 {
     font-family: 'Playfair Display', serif;
     text-align: center;
     padding-top: 18px;
@@ -580,7 +583,7 @@ nav li {
 }
 
 .about {
-    margin-top: -55px; 
+    margin-top: -30px;
     padding-left: 25px;
     font-family: 'Cabin', sans-serif;
     background-color: #f7f7f7;
@@ -609,10 +612,9 @@ span p {
 }
 
 .footerwrapper {
-    max-width: 85%;
+    width: 100%;
     background-color: rgb(68, 68, 68);
     overflow: hidden;
-    margin: 0 auto;
     padding: 40px 0;
     padding-bottom: 30px;
     display: grid;
@@ -647,6 +649,7 @@ input[type="email"]{
 }
 .socialwrapper {
     width: 100%;
+    padding-top: 15px;
     border: solid 1.3px #000;
     background-color: rgb(35, 30, 30);
     overflow: hidden;
@@ -655,92 +658,108 @@ input[type="email"]{
     color: white;
     padding-left: 6.3%;
 }
-.icons li{
-    display: inline;
-}
 .icons{
-    
-    margin-top: -20px;
+    margin-top: -55px;
     float: right;
-    margin-right: 100px;
+    margin-right: 150px;
 }
 .white{
     color:white;
-    margin:0 0 1rem;
+    margin:0 0 1rem
     
 }
+.dateBtn:hover{
+    background-color: orange;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.box3 button:hover{
+    background-color: orange;
+    cursor: pointer;
+    transition: 0.5s;
+}
 
-/*---------- media query --------------*/
-@media(max-width: 480px){
-   
-   .navigationBar {
-        max-width: auto;
-   
+
+
+/*================== media queries =================*/
+@media screen and (max-width: 867px){
+    #tagline{
+        text-align: center;
+        margin-left: 0;
+        padding-left: 0 !important;
 }
 nav {
+    text-align: center;
     float: none;
     margin-top: 0;
     margin-right: 0;
-    max-width: auto;
+    margin-left: 0;
+    max-width: none;
 }
 
 nav li {
-    display: list-item;
+    display: inline-block;
     list-style: none;
-    padding: 0;
+    padding: 0 10px;
     font-family: 'Cabin', sans-serif;
     text-align: center;
 }
 
-#tagline {
-    font-size: 22px;
-    font-family: 'Playfair Display', serif;
-    padding-left: 80px;
-    
-}
-                /*header part over*/
+/* --------------------------------------------- */
+
 .dogText {
     width: auto;
     position: none;
     background-color: #f7f7f7;
-    top: 65%;
+    margin-top: 150px;
     left: 0;
-    height: auto;
+    
 }
 
+#dog {
+    width: 100vw;
+    position: none;
+    margin-bottom: 250px;
+}
 .dogText h2 {
     font-family: 'Playfair Display', serif;
-    font-size: 22px;
-    padding-top: 0px;
-    padding-right: 0px;
+    font-size: 28px;
+    padding-top: 10px;
+    padding-right: 10px;
     text-align: center;
 }
 
 .dogText p {
     font-weight: 400;
-    padding: 0 10px;
+    padding: 10px 25px;
 }
 
+
+/* ---------------------------------------------------- */
+
+/* ---------------------------------------------------- */
+
 .welcomeSection {
-    padding-bottom: 0px;
-    margin-top: 0px;
+    padding-bottom: 15px;
+    
     border-top-width: 0px;
-    border-top-style: solid;
-    padding-top: 0px;
-    margin-top: 330px;
+    border-top-style: none;
+    padding-top: 11px;
+    margin-top: 0px;
     background-color: #f7f7f7;
+    
 }
-.welcomeSection h2 {
+
+.welcomeSection h1 {
     font-family: 'Playfair Display', serif;
     text-align: center;
-    padding-top: 0;
-    font-size: 28px;
+    padding-top: 0px;
 }
 
 #welcomeImg {
     padding-left: 0;
     padding-top: 0px;
-    width: 100%;
+    width: auto;
 }
 
 .left,
@@ -752,48 +771,47 @@ nav li {
 .left {
     float: left;
     position: relative;
-    top: 25px;
-    left: 10px;
+    top: 115px;
+    left: 50%;
 }
 
 .right {
     float: right;
     position: relative;
-    top: 25px;
-    right: 10px;
+    top: 115px;
+    right: 180px;
 }
-@media (min-width: 768px) {
-.grid{
-    display: grid;
-    grid-template-columns: 1fr;
-    padding-left: 0px;
-    grid-row-gap: 20px;
-    margin-top: 20px;
+
+.text {
+    text-align: center;
+    font-size: 18px;
 }
- }
+
+.date {
+    text-align: center;
+    font-style: italic;
+    font-family: 'Playfair Display', sans-serif;
+}
 
 /*--------------------- GRID --------------------------*/
 
 .grid {
     display: grid;
     grid-template-columns: 1fr;
-    padding-left: 0px;
+    padding-left: 16%;
     grid-row-gap: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
 
 }
 
-.cell {
-    width: auto;
-}
 
 .about {
-    margin-top: -30px;
+    margin-top: -42px;
     padding-left: 5px;
     font-family: 'Cabin', sans-serif;
     background-color: #f7f7f7;
     margin-right: 0;
-    width: 310px;
+    width: 360px;
 }
 
 span p {
@@ -802,9 +820,9 @@ span p {
 
 .dateBtn {
     position: relative;
-    top: -5px;
-    left: 0px;
-    width: 310px;
+    top: -19px;
+    left: 230px;
+    width: 100px;
     padding-top: 2px;
     letter-spacing: 1.2px;
     padding-bottom: 2px;
@@ -817,14 +835,15 @@ span p {
     font-size: small;
 }
 .cell img{
-    width: 310px;
+    width: 360px;
 }
 
+
+/*--- footer wrapper ------------*/
 .footerwrapper {
-    max-width: 85%;
+    width: 100%;
     background-color: rgb(68, 68, 68);
     overflow: hidden;
-    margin: 0 auto;
     padding: 40px 0;
     padding-bottom: 30px;
     display: grid;
@@ -832,6 +851,7 @@ span p {
 }
 .box2{
     padding-left: 0px;
+    text-align: center;
     
 }
 
@@ -840,19 +860,25 @@ span p {
     padding-left: 5px;
     padding-right: 5px;
 }
+
 .box1{
-    padding-left: 0px;
+    padding-left: 20px;
     color: #fff;
     padding-bottom: 30px;
 }
 .box3{
     color: #fff;
-    padding-right: 0px;
+    padding-right: 20px;
     padding-top: 30px;
+    padding-left: 20px;
 }
 .box2 a{  
     color: #fff;
     text-decoration: none;
+}
+.box2 a:hover{
+    color: red;
+    transition: 0.5s;
 }
 input[type="email"]{
     padding: 8px;
@@ -869,8 +895,15 @@ input[type="email"]{
     margin-top: 8px;
 }
 
+.box3 button:hover{
+    background-color: orange;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
 .socialwrapper {
     width: 100%;
+    padding-top: 15px;
     border: solid 1.3px #000;
     background-color: rgb(35, 30, 30);
     overflow: hidden;
@@ -880,8 +913,605 @@ input[type="email"]{
     padding-left: 6.3%;
 }
 .icons{
-    float: none;
-    margin-right: 0px;
+margin-top: -55px;
+float: right;
+margin-right: 10%;
+}
+
+
+}
+
+@media only screen and (min-width: 868px) and (max-width: 1200px){
+   
+   nav {
+    float: right;
+    margin-top: -35px;
+    margin-right: 20px;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    padding: 0 10px 0 10px;
+    font-family: 'Cabin', sans-serif;
+}
+
+#tagline {
+    font-size: 22px;
+    font-family: 'Playfair Display', serif;
     padding-left: 50px;
+
+}
+
+.clr {
+    clear: both;
+    /* to clear extra floats */
+}
+
+.navigationBar {
+    background-color: #f7f7f7;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    /*/just to test*/
+}
+
+
+/* --------------------------------------------- */
+
+.dogText {
+    width: 440px;
+    position: absolute;
+    background-color: #f7f7f7;
+    top: 30%;
+    left: 8%;
+}
+
+#dog {
+    width: 100vw;
+    position: relative;
+}
+.dogText h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    padding-top: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.dogText p {
+    font-weight: 400;
+    padding: 10px 25px;
+}
+
+
+/* ---------------------------------------------------- */
+
+.welcomeSection {
+    padding-bottom: 65px;
+    
+    border-top-width: 0px;
+    border-top-style: solid;
+    padding-top: 11px;
+    margin-top: -10px;
+    background-color: #f7f7f7;
+    
+}
+
+.welcomeSection h1 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    padding-top: 18px;
+}
+
+#welcomeImg {
+    padding-left: 10%;
+    padding-top: 0px;
+    width: auto;
+}
+
+
+
+.left {
+    float: left;
+    position: relative;
+    top: 115px;
+    left: 80px;
+}
+
+.right {
+    float: right;
+    position: relative;
+    top: 115px;
+    right: 76px;
+}
+
+.text {
+    text-align: center;
+    font-size: 18px;
+}
+
+.date {
+    text-align: center;
+    font-style: italic;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+
+/*--------------------- GRID --------------------------*/
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 50px;
+    padding-right: 0px;
+    grid-row-gap: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.cell {
+    width: 423px;
+}
+
+.about {
+    margin-top: -30px;
+    padding-left: 25px;
+    font-family: 'Cabin', sans-serif;
+    background-color: #f7f7f7;
+    margin-right: 35px;
+}
+
+span p {
+    margin-top: -20px;
+}
+
+.dateBtn {
+    position: relative;
+    top: -20px;
+    left: 280px;
+    width: 100px;
+    padding-top: 2px;
+    letter-spacing: 1.2px;
+    padding-bottom: 2px;
+    background-color: rgb(251, 0, 0);
+    border: none;
+    color: #fff;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-family: 'Cabin', sans-serif;
+    font-size: small;
+}
+
+.footerwrapper {
+    width: 100%;
+    background-color: rgb(68, 68, 68);
+    overflow: hidden;
+    padding: 40px 0;
+    padding-bottom: 30px;
+    display: grid;
+    grid-template-columns: 1fr 0.4fr 1fr;
+}
+.box2{
+    padding-left: 60px;
+    
+
+}
+.box1{
+    padding-left: 50px;
+    color: #fff;
+}
+.box3{
+    color: #fff;
+    padding-left:  30px;
+}
+.box2 a{  
+    color: #fff;
+    text-decoration: none;
+}
+input[type="email"]{
+    padding: 8px;
+    border: none;
+}
+.box3 button{
+    background-color: red;
+    border: none;
+    padding: 8px;
+    color: #fff;
+}
+.socialwrapper {
+    width: 100%;
+    padding-top: 15px;
+    border: solid 1.3px #000;
+    background-color: rgb(35, 30, 30);
+    overflow: hidden;
+    padding: 10px 0;
+    padding-bottom: 0px;
+    color: white;
+    padding-left: 6.3%;
+}
+.icons{
+    margin-top: -55px;
+    float: right;
+    margin-right: 150px;
+}
+.white{
+    color:white;
+    margin:0 0 1rem
+    
+}
+.dateBtn:hover{
+    background-color: orange;
+    transition: 0.5s;
+    cursor: pointer;
+}
+}
+
+
+
+
+
+
+@media only screen and (min-width: 802px) and (max-width: 864px){
+.welcomeSection {
+    padding-bottom: 15px;
+    border-top-width: 0px;
+    border-top-style: none;
+    padding-top: 11px;
+    margin-top: 0px;
+    background-color: #f7f7f7;
+    
+}
+
+.welcomeSection h1 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    padding-top: 0px;
+}
+
+#welcomeImg {
+    padding-left: 55px;
+    padding-top: 0px;
+    width: auto;
+}
+.left {
+    float: left;
+    position: relative;
+    top: 100px;
+    left: 10px;
+    color: #000;
+}
+
+.right {
+    float: right;
+    position: relative;
+    top: 100px;
+    right: 40px;
+    color: #000;
+}
+.dogText {
+    width: auto;
+    position: absolute;
+    background-color: #f7f7f7;
+    top: 70%;
+    left: 0;
+    height: auto !important;
+}
+
+#dog {
+    width: 100vw;
+    position: relative;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 40px;
+    padding-right: 0px;
+    grid-row-gap: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 462px){
+.welcomeSection {
+    padding-bottom: 15px;
+    
+    border-top-width: 0px;
+    border-top-style: none;
+    padding-top: 11px;
+    margin-top: 100px;
+    background-color: #f7f7f7;
+    
+}
+
+.welcomeSection h1 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    padding-top: 0px;
+}
+
+#welcomeImg {
+    padding-left: 0px;
+    padding-top: 0px;
+    width: 100vw;
+}
+.dogText {
+    width: auto;
+    
+    position: absolute;
+    background-color: #f7f7f7;
+    top: 30%;
+    left: 0;
+    height: auto !important;
+}
+
+#dog {
+    width: 100vw;
+    position: relative;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 5px;
+    padding-right: 0px;
+    grid-row-gap: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.left,
+.right {
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.left {
+    float: left;
+    position: relative;
+    top: -100px;
+    left: 10px;
+    color: #000;
+}
+
+.right {
+    float: right;
+    position: relative;
+    top: -100px;
+    right: 10px;
+    color: #000;
+}
+}
+
+
+@media only screen and (min-width: 200px) and (max-width: 318px){
+.welcomeSection {
+    padding-bottom: 15px;
+    
+    border-top-width: 0px;
+    border-top-style: none;
+    padding-top: 11px;
+    margin-top: 200px;
+    background-color: #f7f7f7;
+    
+}
+
+.welcomeSection h1 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    padding-top: 0px;
+    font-size: 28px;
+}
+
+#welcomeImg {
+    padding-left: 0px;
+    padding-top: 0px;
+    width: 100vw;
+}
+.dogText {
+    width: auto;
+   
+    position: absolute;
+    background-color: #f7f7f7;
+    top: 20%;
+    left: 0;
+    height: auto !important;
+}
+
+#dog {
+    width: 100vw;
+    position: relative;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 5px;
+    padding-right: 0px;
+    grid-row-gap: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.cell {
+    width: 270px !important;
+}
+.about {
+    margin-top: -30px;
+    padding-left: 25px;
+    font-family: 'Cabin', sans-serif;
+    background-color: #f7f7f7;
+    margin-right: 35px;
+}
+
+.left,
+.right {
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.left {
+    float: left;
+    position: relative;
+    top: -100px;
+    left: 10px;
+    color: #000;
+}
+
+.right {
+    float: right;
+    position: relative;
+    top: -100px;
+    right: 10px;
+    color: #000;
+}
+}
+
+
+
+
+@media only screen and (min-width: 698px) and (max-width: 794px){
+.welcomeSection {
+    padding-bottom: 15px;
+    
+    border-top-width: 0px;
+    border-top-style: none;
+    padding-top: 11px;
+    margin-top: 0px;
+    background-color: #f7f7f7;
+    
+}
+
+.welcomeSection h1 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    padding-top: 0px;
+    font-size: 28px;
+}
+
+#welcomeImg {
+    padding-left: 0px;
+    padding-top: 0px;
+    width: 100vw;
+}
+.dogText {
+    width: auto;
+    position: absolute;
+    background-color: #f7f7f7;
+    top: 60%;
+    left: 0;
+    height: auto !important;
+}
+
+#dog {
+    width: 100vw;
+    position: relative;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 5px;
+    padding-right: 0px;
+    grid-row-gap: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+
+
+.left,
+.right {
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.left {
+    float: left;
+    position: relative;
+    top: -200px;
+    left: 10px;
+    color: #000;
+}
+
+.right {
+    float: right;
+    position: relative;
+    top: -200px;
+    right: 10px;
+    color: #000;
+}
+}
+
+@media only screen and (min-width: 464px) and (max-width: 697px){
+.welcomeSection {
+    padding-bottom: 15px;
+    
+    border-top-width: 0px;
+    border-top-style: none;
+    padding-top: 11px;
+    margin-top: 30px;
+    background-color: #f7f7f7;
+    
+}
+
+.welcomeSection h1 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    padding-top: 0px;
+    font-size: 28px;
+}
+
+#welcomeImg {
+    padding-left: 0px;
+    padding-top: 0px;
+    width: 100vw;
+}
+.dogText {
+    width: auto;
+   
+    position: absolute;
+    background-color: #f7f7f7;
+    top: 40%;
+    left: 0;
+    height: auto !important;
+}
+
+#dog {
+    width: 100vw;
+    position: relative;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 50px;
+    padding-right: 0px;
+    grid-row-gap: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+
+
+
+
+.left {
+    float: left;
+    position: relative;
+    top: -130px;
+    left: 10px;
+    color: #000;
+}
+
+.right {
+    float: right;
+    position: relative;
+    top: -130px;
+    right: 10px;
+    color: #000;
 }
 }

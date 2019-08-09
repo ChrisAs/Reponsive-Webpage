@@ -6,21 +6,19 @@
    
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> 
     <link rel="stylesheet" type="text/css" href="style.css">
-
 </head>
 
 <body>
     <header>
         <div class="navigationBar">
             <div id="tagline">
-                <h2 class="hamburger">HackerYou</h2>
+                <h2>HackerYou</h2>
             </div>
             <nav>
                 <ul>
-                </ul>
-                    <li><a class="black" href="https://hackeryou.com/"r>HOME</a></li>
+                    <li><a class="black" href="https://hackeryou.com/">HOME</a></li>
                     <li><a class="black" href="https://hackeryou.com/about">ABOUT</a></li>
                     <li><a class="black" href="https://hackeryou.com/contact">CONTACT</a></li>
                     <li><a class="black" href="https://hackeryou.com/courses/bootcamp">BOOTCAMP</a></li>
@@ -37,7 +35,7 @@
                 <img id="dog" src="./assets/image-1.jpg" alt="Banner image of dog on couch with tongue out">
             </div>
             <div class="dogText">
-                <h1 class="tech">Winter 2019 Tech Test</h1>
+                <h2>Winter 2019 Tech Test</h2>
                 <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                     aliquip ex ea commodo consequat. Duis
@@ -50,11 +48,11 @@
         <!---------------------------------------------------->
         <main>
             <div class="welcomeSection">
-                <h2>Welcome to HackerYou</h2> <!-- H2 OPENING WITH H1 CLOSING -->
+                <h1>Welcome to HackerYou</h1>
                 <img id="welcomeImg" src="./assets/image-2.jpg" alt="Image of students on macbook computers coding">
-
-                <a href="#"><i class="fa fa-arrow-left fa-2x left"></i></a> <a href="#"><i class="fa fa-arrow-right fa-2x right"></i></a> <!-- YOU NEED TO WRAP THE LINKS AROUND YOUR <i> ELEMENTS-->
-
+                
+                   <i class="fa fa-angle-left fa-2x left"><a href="#"></a></i> <i class="fa fa-angle-right fa-2x right"><a href="#"></a></i>
+                
                 <div class="tag">
                     <p class="text">FULL TIME WEB DEVELOPMENT IMMERSIVE</p>
                     <p class="date">January 1st, 2019</p>
@@ -64,23 +62,23 @@
 
             <div class="grid">
                 <div class="cell">
-                    <img src="./assets/image-3.jpg" alt="Image of teacher in classroom teaching">
+                    <img class="cellImg-1" src="./assets/image-3.jpg" alt="Image of teacher in classroom teaching">
                     <div class="dateBtn">JAN 9, 2019</div>
                     <div class="about">
-                        <h2>Web Development</h2> <!-- H2 OPENING WITH H1 CLOSING -->
-                            <span>
-                                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua.</p>
-                            </span>
-                            <p><a href="https://hackeryou.com/courses/web-development">READ MORE</a></p>
+                        <h1>Web Development</h1>
+                        <span>
+                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </span>
+                        <p><a href="https://hackeryou.com/courses/web-development">READ MORE</a></p>
                     </div>
                 </div>
-
+  
                 <div class="cell">
                     <img src="./assets/image-4.jpg" alt="Image of people looking up with hands on hips">
                     <div class="dateBtn">JAN 7, 2019</div>
                     <div class="about">
-                        <h2>Team Culture</h2>
+                        <h1>Team Culture</h1>
                         <span>
                             <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                 tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -93,12 +91,12 @@
                     <img src="./assets/image-6.jpg" alt="Image of student coding">
                     <div class="dateBtn">JAN 6, 2019</div>
                     <div class="about">
-                        <h2>Javascript</h2> <!-- H2 OPENING WITH H1 CLOSING -->
-                            <span>
-                                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                    tempor incididunt ut labore et dolore magna aliqua.</p>
-                            </span>
-                            <p><a href="https://hackeryou.com/courses/javascript">READ MORE</a></p>
+                        <h1>Javascript</h1>
+                        <span>
+                            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </span>
+                        <p><a href="https://hackeryou.com/courses/javascript">READ MORE</a></p>
                     </div>
                 </div>
 
@@ -106,7 +104,7 @@
                     <img src="./assets/image-5.jpg" alt="Image of instructor aiding a student on a macbook">
                     <div class="dateBtn">JAN 4, 2019</div>
                     <div class="about">
-                        <h2>Student Experience</h2>
+                        <h1>Student Experience</h1>
                         <span>
                             <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                 tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -116,64 +114,43 @@
                     </div>
                 </div>
             </div>
-        </main> <!--<main> WAS OPENED INSIDE OF <section> SO IT SHOULD BE CLOSED FIRST-->
     </section>
+    </main>
     <section>
-        <div class="footerwrapper">
-            <footer>
-                <div class="box1">
-                    <h3>HACKERYOU TECH TEST</h3>
-                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                </div>
-    
-                <div class="box2">
-                    <ul>
-                        <li><a href="https://hackeryou.com/">HOME</a></li>
-                        <li><a href="https://hackeryou.com/about">ABOUT</a></li>
-                        <li><a href="https://hackeryou.com/bootcamp">BOOTCAMP</a></li>
-                        <li><a href="https://hackeryou.com/web-development">PART-TIME</a></li>
-                        <li><a href="https://hackeryou.com/contact">CONTACT</a></li>
-                    </ul>
-                </div>
-    
-                <div class="box3">
-                    <h4>SUBSCRIBE TO OUR NEWSLETTER</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
-                    <input type="email" placeholder="email address">
-                    <button>SUBSCRIBE</button>
-                </div>
-    
-    
-            
-            <div class="socialwrapper">
-                <p>&#9400; 2018 HackerYou</p>
-    
-                <ul class="icons"> <!-- FORMATTED LIST TO MAKE IT A BIT EASIER TO READ -->
-                    <li>
-                      <a class="white" href="https://twitter.com/hackeryou?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                      </a>
-                    </li>&nbsp;&nbsp;
-                    <li>
-                      <a class="white" href="https://www.instagram.com/thisishackeryou/?hl=en">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                      </a>
-                    </li>&nbsp;&nbsp;
-                    <li>
-                      <a class="white" href="https://www.facebook.com/thisishackeryou/">
-                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                      </a>
-                    </li>&nbsp;&nbsp;
-                    <li>
-                      <a class="white" href="https://www.linkedin.com/school/hackeryou/">
-                        <i class="fa fa-google-plus" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                    <!-- Could not find googleplus, replaced with linkedin instead -->
+        <footer class="footerwrapper">
+            <div class="box1">
+                <h3>HACKERYOU TECH TEST</h3>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+            </div>
+           
+            <div class="box2">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">BOOTCAMP</a></li>
+                    <li><a href="#">PART-TIME</a></li>
+                    <li><a href="#">CONTACT</a></li>
                 </ul>
             </div>
+            
+            <div class="box3">
+                <h4>SUBSCRIBE TO OUR NEWSLETTER</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                <input type="email" placeholder="email address">
+                <button>SUBSCRIBE</button>
+            </div>
+           
+                
         </footer>
+        <div class="socialwrapper"> <p>&#9400;2018 HackerYou</p>
+            <br>
+            <span class="icons">
+                <a class="white" href="https://twitter.com/hackeryou?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"> <i class="fa fa-twitter" aria-hidden="true"></i></a>&nbsp;&nbsp;
+                <a class="white" href="https://www.instagram.com/thisishackeryou/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a>&nbsp;&nbsp;
+                <a class="white" href="https://www.facebook.com/thisishackeryou/"><i class="fa fa-facebook" aria-hidden="true"></i></a>&nbsp;&nbsp;
+                <a class="white" href="https://www.linkedin.com/school/hackeryou/"><i class="fa fa-google-plus" aria-hidden="true"></i></a> 
+                <!-- Could not find googleplus, replaced with linkedin instead -->
+            </span>
         </div>
     </section>
 
